@@ -56,7 +56,6 @@
 #include <osgQt/GraphicsWindowQt>
 #include <QVBoxLayout>
 #include <QApplication>
-#include "CommonFunctions"
 
 
 osgQt::GraphicsWindowQt* createGraphicsWindow( int x, int y, int w, int h )

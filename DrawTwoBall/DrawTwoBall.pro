@@ -11,8 +11,7 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     drawtwoball.cpp \
-    pickhandler.cpp \
-    CommonFunctions.cpp
+    pickhandler.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -28,8 +27,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 HEADERS += \
     drawtwoball.h \
     pickhandler.h \
-    libs.h \
-    CommonFunctions
+    libs.h
 
 
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../OpenSceneGraph-3.6.1_lib_qt/lib/ -losg
